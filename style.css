@@ -8,8 +8,9 @@
   body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    padding: 20px;
+    padding: 50px;
   }
+   /*Titulo do texto*/  
   header h1 {
     font-size: 2rem;
     margin-bottom: 30px;
@@ -17,17 +18,17 @@
   }
   
   
-  /* Container principal que agrupa os cards */
+  /* Agrupar Cards */
   .container {
     display: flex;              /* Permite colocar os cards lado a lado */
-    gap: 20px;                  /* Espaçamento entre os cards */
+    gap: 50px;                  /* Espaçamento entre os cards */
     justify-content: center;   /* Centraliza os cards horizontalmente */
     flex-wrap: wrap;           /* Permite quebrar a linha em telas pequenas */
   }
   
   /* Estilo dos cards */
   .card {
-    background-color: #ffffff;
+    background-color: #ccc9c9;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -53,4 +54,11 @@
       flex-direction: column;  /* Empilha os cards verticalmente */
       align-items: center;     /* Centraliza os cards na vertical */
     }
+  }
+  /* Imagem dentro do card */
+  .card img.midia {
+    width: 400px; /* Define um tamanho fixo para a imagem */
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px;
   }
