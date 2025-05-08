@@ -1,0 +1,16 @@
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+  }
+  
+  .button {
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+  }
+  
+  
+  body {
+    font-family: Arial;
+  }
